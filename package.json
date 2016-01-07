@@ -1,10 +1,11 @@
 {
   "name": "react-realm",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A total rip-off of the Elm architecture, in React",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
+    "lint": "eslint src",
     "test": "karma start --single-run",
     "test:watch": "karma start"
   },
@@ -45,6 +46,7 @@
     "react-addons-test-utils": "^0.14.2",
     "react-dom": "^0.14.2",
     "sinon": "^1.17.2",
+    "teaspoon": "^5.0.1",
     "webpack": "^1.12.6"
   },
   "dependencies": {
